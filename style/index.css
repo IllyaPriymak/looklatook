@@ -1,0 +1,120 @@
+body {
+  margin: 0px; }
+
+.logorest {
+  width: 30%;
+  height: 120px; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: white; }
+  .header .header_nav {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .header .header_nav .header_nav__link {
+      color: black;
+      text-decoration: none;
+      margin-right: 40px;
+      margin-left: 40px;
+      font-size: 30px; }
+      .header .header_nav .header_nav__link.header_nav__link:hover {
+        color: #673C1E;
+        -webkit-text-decoration-line: underline;
+        text-decoration-line: underline; }
+
+.lltfoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url("../images/2019112601.04.49.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px; }
+
+.menu_contant {
+  background-image: url("../images/2019-11-26 01.19.06.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center; }
+  .menu_contant .main_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .menu_contant .main_menu .first_menu__section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding-bottom: 50px; }
+      .menu_contant .main_menu .first_menu__section .menu_class__name {
+        text-decoration: none;
+        color: black;
+        font-size: 35px; }
+    .menu_contant .main_menu .second_menu__section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding-bottom: 50px; }
+      .menu_contant .main_menu .second_menu__section .menu_class__name {
+        text-decoration: none;
+        color: black;
+        font-size: 35px; }
+    .menu_contant .main_menu .third_menu__section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding-bottom: 50px; }
+      .menu_contant .main_menu .third_menu__section .menu_class__name {
+        text-decoration: none;
+        color: black;
+        font-size: 35px; }
+    .menu_contant .main_menu .forth_menu__section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding-bottom: 50px; }
+      .menu_contant .main_menu .forth_menu__section .menu_class__name {
+        text-decoration: none;
+        color: black;
+        font-size: 35px; }
+
+.food_foto {
+  width: 370px;
+  height: 300px; }
+
+.foto_button:hover {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }

@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+}
+
+
+
+.logorest {
+  width: 30%;
+  height: 120px;
+
+
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+
+  .header_nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .header_nav__link {
+      color: black;
+      text-decoration: none;
+      margin-right: 40px;
+      margin-left: 40px;
+      font-size: 30px;
+
+
+      &.header_nav__link:hover {
+        color: #673C1E;;
+        text-decoration-line: underline;;
+      }
+    }
+  }
+}
+
+.lltfoto{
+  display:flex;
+  justify-content: center;
+  background-image: url("../images/2019112601.04.49.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+
+}
+
+
+.menu_contant {
+  background-image: url("../images/2019-11-26 01.19.06.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .main_menu {
+    display: flex;
+    flex-direction: column;
+
+    .first_menu__section {
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 50px;
+
+
+        .menu_class__name{
+          text-decoration: none;
+          color: black;
+          font-size: 35px;
+
+      }
+    }
+    .second_menu__section {
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 50px;
+
+
+      .menu_class__name{
+        text-decoration: none;
+        color: black;
+        font-size: 35px;
+
+    }
+   }
+
+   .third_menu__section {
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 50px;
+
+
+     .menu_class__name{
+       text-decoration: none;
+       color: black;
+       font-size: 35px;
+
+    }
+   }
+
+   .forth_menu__section {
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 50px;
+
+
+     .menu_class__name{
+       text-decoration: none;
+       color: black;
+       font-size: 35px;
+
+    }
+   }
+  }
+ }
+
+
+
+
+.food_foto {
+  width: 370px;
+  height: 300px;
+}
+
+.foto_button:hover {
+  transition: all 0.5s;
+}
