@@ -114,7 +114,7 @@ body {
   width: 370px;
   height: 300px; }
 
-.gallary {
+.gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,8 +124,55 @@ body {
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
-  .gallary #carouselExampleIndicators {
+  align-items: center;
+  height: 1000px; }
+  .gallery #carouselExampleIndicators {
     width: 1000px;
     height: 680px;
     margin-top: 50px; }
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 900px;
+  text-align: center; }
+  .social .social_contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .social .social_contact .media {
+      margin-right: 70px; }
+      .social .social_contact .media .input-container {
+        display: -ms-flexbox;
+        /* IE10 */
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px; }
+      .social .social_contact .media .input-field {
+        width: 100%;
+        padding: 10px;
+        outline: none; }
+      .social .social_contact .media .input-field:focus {
+        border: 2px solid dodgerblue; }
+      .social .social_contact .media .btn {
+        background-color: dodgerblue;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9; }
+    .social .social_contact .map {
+      text-align: center;
+      margin-left: 70px; }

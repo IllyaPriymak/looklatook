@@ -130,7 +130,7 @@ body {
 }
 
 
-.gallary {
+.gallery {
   // background-image: url("");
   // background-position: center;
   // background-repeat: no-repeat;
@@ -138,10 +138,60 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 1000px;
 
   #carouselExampleIndicators {
     width: 1000px;
     height: 680px;
     margin-top: 50px;
+
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+  text-align: center;
+
+  .social_contact {
+    display: flex;
+    justify-content: space-around;
+
+    .media {
+      margin-right: 70px;
+
+      .input-container {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      .input-field {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+      }
+
+      .input-field:focus {
+        border: 2px solid dodgerblue;
+      }
+
+        .btn {
+          background-color: dodgerblue;
+          color: white;
+          padding: 15px 20px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+    }
+
+    .map {
+      text-align: center;
+      margin-left: 70px;
+    }
   }
 }
